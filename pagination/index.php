@@ -77,7 +77,7 @@ if(isset($_POST['formSubmit']))
 
 	if($insertData)
 	{
-		echo "<script>alert('Data Inserted Successfully')</script>";
+		echo "<script>alert('Data Inserted Successfully');window.location.href='viewData.php'</script>";
 	}
 	else
 	{
